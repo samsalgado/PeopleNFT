@@ -4,7 +4,7 @@ import "../node_modules/@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 
 import "../node_modules/@openzeppelin/contracts/utils/Counters.sol";
 import "../node_modules/@openzeppelin/contracts/access/Ownable.sol";
-
+import "../node_modules/@openzeppelin/contracts/crosschain/CrossChainEnabled.sol";
 contract PersonNFT is ERC1155, Ownable {
      using Counters for Counters.Counter;
      uint256 public population;
